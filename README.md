@@ -22,7 +22,7 @@ As a central log server, the syslog-ng image exposes three different ports, wher
 
 ### Get the official rsyslog/syslog_appliance_alpine
 
-Open a `terminal` and change the directory to where all the `Rsyslog` files are hosted. That should be `$PWD/rsyslog`.
+Open a `terminal` and change the directory to where all the `Syslog-NG` files are hosted.
 
 ```sh
 cd Syslog-NG
@@ -35,8 +35,7 @@ mkdir conf logs
 ```
 
 > `/config` Holds the container configuration. This volume can be mounted read-only after initial population with sample files.
-
-> `/logs` This holds log files if the container is configured to write them.
+`/logs` This holds log files if the container is configured to write them.
 
 ### Pull the official image from Dockder hub.
 
