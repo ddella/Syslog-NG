@@ -10,8 +10,10 @@ As a central log server, the syslog-ng image exposes three different ports, wher
 - Syslog TCP: 601
 - Syslog TLS: 6514
 
+### Requirements
+
 * Familiarity with [Docker](https://www.docker.com/).
-* [syslog-ng](https://www.syslog-ng.com/community/b/blog/posts/central-log-server-docker/)
+* Familiarity with [syslog-ng](https://www.syslog-ng.com/community/b/blog/posts/central-log-server-docker/).
 * Docker Desktop installed locally.
 
 ## Let's get the image and start the container
