@@ -45,7 +45,7 @@ docker pull balabit/syslog-ng
 
 ### Start Rsyslog
 
-Note that your host's `$PWD/conf` folder should be populated with a file named `syslog-ng.conf`. See below for a minimal configuration file.
+Note that the directory `$PWD/conf` folder should be populated with a file named `syslog-ng.conf`. See below for a minimal configuration file.
 
 ```conf
 @version: 3.9
@@ -99,7 +99,7 @@ balabit/syslog-ng
 docker exec -it syslog2 bash
 ```
 
-At the prompt `root@syslog2:/#`,
+At the prompt: `root@syslog2:/#`,
 
 3. to test `601/tcp`, use the following command:
 
