@@ -120,3 +120,9 @@ Clean the log file from the log generated in the step above:
 ```sh
 : > logs/syslog
 ```
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
+
+[*^ back to top*](#Syslog-NG-server-on-Docker)
